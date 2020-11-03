@@ -8,7 +8,7 @@
   1. [Installation](#installation)
   2. [Description](#description)
   3. [License](#license)
-  4. [README](#Demo)
+  4. [Demo](#Demo)
   5. [App](#Application)
   6. [Links](#links)
   ## Installation 
@@ -31,9 +31,9 @@ THEN I am able to successfully create, update, and delete data in my database
   ## License 
    ![github license](https://img.shields.io/badge/license-ISC-blue.svg)
   ## Demo
-   ![README](demos\demo1.png)
-    ![README](demos\demo2.png)
-   ![README](demos\demo3.png) 
+   ![Demo](demos\demo1.png)
+    ![Demo](demos\demo2.png)
+   [Demo](demos\demo3.png) 
   ## Application 
   Insomia 
   ## links 
