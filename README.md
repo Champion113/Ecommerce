@@ -8,7 +8,7 @@
   1. [Installation](#installation)
   2. [Description](#description)
   3. [License](#license)
-  4. [Demo](#demo)
+  4. [README](#Demo)
   5. [App](#Application)
   6. [Links](#links)
   ## Installation 
@@ -30,11 +30,11 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
   ## License 
    ![github license](https://img.shields.io/badge/license-ISC-blue.svg)
-  ## demo
-   ![Demo1](13-orm-homework-demo-01.gif)
-    ![Demo2](13-orm-homework-demo-02.gif)
-    ![Demo3](13-orm-homework-demo-03.gif) 
+  ## Demo
+   ![README](demos\13-orm-homework-demo-01.gif)
+    ![README](demos\13-orm-homework-demo-02.gif)
+   ![README](demos\13-orm-homework-demo-03.gif) 
   ## Application 
   Insomia 
   ## links 
-  ![Github](https://champion113.github.io/Ecommerce/)
+   [github]( https://champion113.github.io/Ecommerce/)
