@@ -31,10 +31,10 @@ THEN I am able to successfully create, update, and delete data in my database
   ## License 
    ![github license](https://img.shields.io/badge/license-ISC-blue.svg)
   ## demo
-   ![Demo1](C:\Users\12673\Desktop\Homework\Ecommerce\demos\13-orm-homework-demo-01.gif)
-    ![Demo2](demos\13-orm-homework-demo-02.gif)
-    ![Demo3](demos\13-orm-homework-demo-03.gif) 
+   ![Demo1](13-orm-homework-demo-01.gif)
+    ![Demo2](13-orm-homework-demo-02.gif)
+    ![Demo3](13-orm-homework-demo-03.gif) 
   ## Application 
   Insomia 
   ## links 
-  
+  ![Github](https://champion113.github.io/Ecommerce/)
