@@ -14,20 +14,7 @@ Tag.init(
       autoIncrement: true,
     },
     tag_name: {
-      type: DataTypes.STRING,
-      references: {
-        model: product,
-        key: 'id',
-        deferrable: DataTypes.deferrable.INITIALLY_IMMEDIATE
-      }
-    },
-    tag_id: {
-      type: DataTypes.STRING,
-      references: {
-        model: tag,
-        key: 'id',
-        deferrable: DataTypes.deferrable.INITIALLY_IMMEDIATE
-      }
+      type: DataTypes.STRING
     }
   },
   {

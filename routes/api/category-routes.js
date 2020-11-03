@@ -7,10 +7,13 @@ router.get('/', (req, res) => {
    // find all categories
   // associated Products
   Category.findAll({
+    attributes: ['id', 'category_name'],
     include: [
-      Product
-    ]
-  }).then(categories => res.json(categories)).catch(err => res.status(500).json(err))
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+      }]
+  }).then(products => res.json(products)).catch(err => res.status(500).json(err))
  
  
 });
@@ -22,12 +25,19 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: [Product]
-  }).then(category => res.json(category)).catch(err => res.status(500).json(err))
+    attributes: ['id', 'category_name'],
+    include: [
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+      }]
+  }).then(products => res.json(products)).catch(err => res.status(500).json(err))
 });
 //Create new category
 router.post('/', (req, res) => {
-  Category.create(req.body).then(category => res.json(category)).catch(err => res.status(500).json(err))
+  Category.create(
+    {
+      category_name:req.body.category_name,}).then(category => res.json(category)).catch(err => res.status(500).json(err))
 });
 
 router.put('/:id', (req, res) => {

@@ -41,7 +41,6 @@ Product.init(
       references: {
         model: category,
         key: 'id',
-        deferrable: DataTypes.deferrable.INITIALLY_IMMEDIATE
       
       }
     }

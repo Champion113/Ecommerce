@@ -31,9 +31,9 @@ THEN I am able to successfully create, update, and delete data in my database
   ## License 
    ![github license](https://img.shields.io/badge/license-ISC-blue.svg)
   ## Demo
-   ![README](demos\13-orm-homework-demo-01.gif)
-    ![README](demos\13-orm-homework-demo-02.gif)
-   ![README](demos\13-orm-homework-demo-03.gif) 
+   ![README](demos\demo1.png)
+    ![README](demos\demo2.png)
+   ![README](demos\demo3.png) 
   ## Application 
   Insomia 
   ## links 
