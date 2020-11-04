@@ -10,7 +10,8 @@ router.get('/', (req, res) => {
     attributes: ['id', 'tag_name'],
     include: [
       {
-      model: Product
+      model: Product,
+      through: ProductTag
       }]
   }).then(tags => res.json(tags)).catch(err => res.status(500).json(err))
  
@@ -24,7 +25,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: [{ model: Product}]
+    include: [{ model: Product, through: ProductTag}]
   }).then(tags => res.json(tags)).catch(err => res.status(500).json(err))
 });
 
