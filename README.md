@@ -33,7 +33,7 @@ THEN I am able to successfully create, update, and delete data in my database
   ## Demo
    ![Demo](demos\demo1.png)
     ![Demo](demos\demo2.png)
-   [Demo](demos\demo3.png) 
+   ![Demo](demos\Screenshot (32).png) 
   ## Application 
   Insomia 
   ## links 
